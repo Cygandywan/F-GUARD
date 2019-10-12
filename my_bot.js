@@ -15,7 +15,7 @@ client.on('message', message => {
     // PLAYING, STREAMING, LISTENING, WATCHING
     // For example:
     // client.user.setActivity("TV", {type: "STREAMING"})
-})
+});
 client.on('message', message => {
 	if (message.content === 'f-g!Test') {
 		message.channel.send('test :D');
@@ -55,4 +55,4 @@ client.on('message', message => {
 });
 
 //this must be this away
-client.login("NjMwODE5OTgzMDU1NzgxOTI4.XZ-nrg.mfmW_RNTMdPfvj5LnYoUClVGocA") // Replace XXXXX with your bot token
+client.login(process.env.BOT_TOKEN);
