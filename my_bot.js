@@ -9,7 +9,6 @@ client.on('message', message => {
 	if (message.content === 'ping') {
 		message.reply('pong');
 	}
-});
     client.user.setActivity("f-g!info ♦ Paczka Antycheat ♦")
 
     // Alternatively, you can set the activity to any of the following:
