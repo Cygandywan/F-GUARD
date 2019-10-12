@@ -47,4 +47,4 @@ client.on('message', message => {
   message.channel.send({embed});
 	}
 });
-client.login("NjMwODE5OTgzMDU1NzgxOTI4.XaD7gw.WnLTIoYgQi3UQdXoOWTFy2pOo24") // Replace XXXXX with your bot token
+client.login("NjMwODE5OTgzMDU1NzgxOTI4.XaGTGg.7Y11gO1WlNaC3xwhpwdN0L-RvY0") // Replace XXXXX with your bot token
