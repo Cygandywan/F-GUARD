@@ -9,16 +9,7 @@ client.on('ready', () => {
     console.log('I am ready!');
 
 });
-//this must be this away
-client.login(process.env.BOT_TOKEN);
-    // Set bot status to: "Streaming with JavaScript"
-    client.user.setActivity("f-g!info ♦ Paczka Antycheat ♦")
 
-    // Alternatively, you can set the activity to any of the following:
-    // PLAYING, STREAMING, LISTENING, WATCHING
-    // For example:
-    // client.user.setActivity("TV", {type: "STREAMING"})
-})
  
 
 client.on('message', message => {
