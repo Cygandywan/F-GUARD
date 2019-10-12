@@ -55,4 +55,4 @@ client.on('message', message => {
 });
 
 //this must be this away
-client.login(process.env.BOT_TOKEN);
+client.login("NjMwODE5OTgzMDU1NzgxOTI4.XZ-nrg.mfmW_RNTMdPfvj5LnYoUClVGocA") // Replace XXXXX with your bot token
