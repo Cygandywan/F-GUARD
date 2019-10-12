@@ -15,7 +15,7 @@ client.on('message', message => {
     // PLAYING, STREAMING, LISTENING, WATCHING
     // For example:
     // client.user.setActivity("TV", {type: "STREAMING"})
-});
+})
 client.on('message', message => {
 	if (message.content === 'f-g!Test') {
 		message.channel.send('test :D');
