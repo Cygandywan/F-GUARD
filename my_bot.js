@@ -9,7 +9,7 @@ client.on('ready', () => {
     // PLAYING, STREAMING, LISTENING, WATCHING
     // For example:
     // client.user.setActivity("TV", {type: "WATCHING"})
-})
+});
 
  
 
