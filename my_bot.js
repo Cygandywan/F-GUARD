@@ -10,7 +10,7 @@ client.on('ready', () => {
 
   
   
-bot.user.setStatus('dnd') 
+client.user.setStatus('dnd') 
 
 });
 
