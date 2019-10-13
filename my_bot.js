@@ -7,7 +7,6 @@ const client = new Discord.Client();
 client.on('ready', () => {
 
     console.log('I am ready!');
- client.user.setGame('game here !')
 
 });
 
@@ -20,7 +19,8 @@ client.on('message', message => {
        message.reply('pong');
 
        }
-
+ 
+client.user.setGame('game here !')
 });
 
  
