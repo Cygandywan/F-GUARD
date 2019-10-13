@@ -8,7 +8,10 @@ client.on('ready', () => {
 
     console.log('I am ready!');
 
-bot.user.setPresence({ game: { name: 'with depression', type: "streaming", url: "https://www.twitch.tv/monstercat"}}); 
+client.user.setActivity("with depression", {
+  type: "STREAMING",
+  url: "https://www.twitch.tv/monstercat"
+});
 
 });
 
