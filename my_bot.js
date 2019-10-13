@@ -1,6 +1,9 @@
-const Discord = require('discord.js');
-
-const client = new Discord.Client();
+const Discord = require("discord.js");
+const bot = new Discord.Client();
+bot.on("ready", () => {
+  console.log("Ready");
+  bot.user.setActivity("Type !help");
+})
 
 
 
@@ -11,7 +14,6 @@ client.on('ready', () => {
 
 });
 
-client.user.setActivity('YouTube', { type: 'WATCHING' }); 
  
 
 client.on('message', message => {
