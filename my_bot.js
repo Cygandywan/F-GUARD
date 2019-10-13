@@ -1,9 +1,6 @@
-const Discord = require("discord.js");
-const bot = new Discord.Client();
-bot.on("ready", () => {
-  console.log("Ready");
-  bot.user.setActivity("Type !help");
-})
+const Discord = require('discord.js');
+
+const client = new Discord.Client();
 
 
 
@@ -11,6 +8,9 @@ client.on('ready', () => {
 
     console.log('I am ready!');
 
+  
+  
+bot.user.setStatus('dnd') 
 
 });
 
