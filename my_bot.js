@@ -10,11 +10,14 @@ client.on('ready', () => {
 
   
   
-client.user.setStatus('dnd') 
 
 });
 
- 
+ client.user.setStatus('dnd')
+
+
+
+});
 
 client.on('message', message => {
 
