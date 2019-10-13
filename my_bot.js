@@ -13,7 +13,6 @@ client.user.setActivity("with depression", {
   url: "https://www.twitch.tv/monstercat"
 });
 
-});
 
  
 
