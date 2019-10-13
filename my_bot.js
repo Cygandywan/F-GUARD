@@ -1,13 +1,7 @@
-const Discord = require('discord.js');
-
-const client = new Discord.Client();
-
- 
+const Discord = require('discord.js')
+const client = new Discord.Client()
 
 client.on('ready', () => {
-
-    console.log('I am ready!');
-
     // Set bot status to: "Playing with JavaScript"
     client.user.setActivity("with JavaScript")
 
@@ -15,19 +9,7 @@ client.on('ready', () => {
     // PLAYING, STREAMING, LISTENING, WATCHING
     // For example:
     // client.user.setActivity("TV", {type: "WATCHING"})
-});
-
- 
-
-client.on('message', message => {
-
-    if (message.content === 'ping') {
-
-       message.reply('pong');
-
-       }
-
-});
+})
 
  
 
