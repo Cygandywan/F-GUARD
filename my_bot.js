@@ -2,15 +2,14 @@ const Discord = require('discord.js');
 
 const client = new Discord.Client();
 
- 
+client.user.setActivity('YouTube', { type: 'WATCHING' }); 
+
 
 client.on('ready', () => {
 
     console.log('I am ready!');
 
-client.user.setActivity("with depression", {
-  type: "STREAMING",
-  url: "https://www.twitch.tv/monstercat"
+
 });
 
 
