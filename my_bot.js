@@ -20,7 +20,7 @@ client.on('message', message => {
 
        }
  
-client.user.setGame('game here !')
+client.user.setActivity("IronPack Beta"); 
 });
 
  
