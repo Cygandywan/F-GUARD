@@ -8,6 +8,8 @@ client.on('ready', () => {
 
     console.log('I am ready!');
 
+bot.user.setPresence({ game: { name: 'with depression', type: "streaming", url: "https://www.twitch.tv/monstercat"}}); 
+
 });
 
  
@@ -20,7 +22,6 @@ client.on('message', message => {
 
        }
  
-client.user.setActivity("IronPack Beta"); 
 });
 
  
